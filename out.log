@@ -1,0 +1,36 @@
+2024-05-12 15:18:39,340 - zapModules.py:32 - INFO - Starting zap in the headless mode
+2024-05-12 15:18:54,313 - zapModules.py:51 - WARNING - Context not created HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: http://zap/JSON/context/action/newContext/?contextName=Default+Context&apikey=zap_predsac_automation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7414db702890>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-05-12 15:18:54,316 - zapTest.py:46 - DEBUG - Try 1
+2024-05-12 15:18:59,486 - zapModules.py:48 - INFO - context Default Context created with context id 1
+2024-05-12 15:18:59,486 - zapTest.py:46 - DEBUG - Try 2
+2024-05-12 15:19:04,491 - zapTest.py:53 - INFO - New Context id created with context name Default Context context ID 1
+2024-05-12 15:19:04,491 - zapModules.py:58 - INFO - initial Spidering of the target https://demo.testfire.net
+2024-05-12 15:19:04,537 - zapModules.py:64 - INFO - Spider progress %: 0
+2024-05-12 15:19:09,550 - zapModules.py:64 - INFO - Spider progress %: 24
+2024-05-12 15:19:14,564 - zapModules.py:64 - INFO - Spider progress %: 47
+2024-05-12 15:19:19,617 - zapModules.py:64 - INFO - Spider progress %: 61
+2024-05-12 15:19:24,694 - zapModules.py:64 - INFO - Spider progress %: 66
+2024-05-12 15:19:29,789 - zapModules.py:64 - INFO - Spider progress %: 86
+2024-05-12 15:19:34,801 - zapModules.py:64 - INFO - Spider progress %: 93
+2024-05-12 15:19:39,808 - zapModules.py:69 - INFO - Spider has completed!
+2024-05-12 15:19:39,823 - zapModules.py:70 - INFO - Total Child nodes present at the end of the scan- 31
+2024-05-12 15:19:39,823 - zapModules.py:217 - INFO -  Active scanning the target https://demo.testfire.net
+2024-05-12 15:19:39,869 - zapModules.py:223 - INFO - Active scan progress %: 0
+2024-05-12 15:20:39,939 - zapModules.py:223 - INFO - Active scan progress %: 2
+2024-05-12 15:21:40,032 - zapModules.py:223 - INFO - Active scan progress %: 6
+2024-05-12 15:22:40,085 - zapModules.py:223 - INFO - Active scan progress %: 17
+2024-05-12 15:23:40,152 - zapModules.py:223 - INFO - Active scan progress %: 29
+2024-05-12 15:24:40,174 - zapModules.py:223 - INFO - Active scan progress %: 39
+2024-05-12 15:25:40,236 - zapModules.py:223 - INFO - Active scan progress %: 42
+2024-05-12 15:26:40,303 - zapModules.py:223 - INFO - Active scan progress %: 47
+2024-05-12 15:27:40,370 - zapModules.py:223 - INFO - Active scan progress %: 49
+2024-05-12 15:28:40,436 - zapModules.py:223 - INFO - Active scan progress %: 52
+2024-05-12 15:29:40,512 - zapModules.py:223 - INFO - Active scan progress %: 65
+2024-05-12 15:30:40,585 - zapModules.py:223 - INFO - Active scan progress %: 73
+2024-05-12 15:31:40,652 - zapModules.py:223 - INFO - Active scan progress %: 87
+2024-05-12 15:32:40,716 - zapModules.py:229 - INFO - Active scan has been completed!
+2024-05-12 15:32:40,716 - zapModules.py:243 - INFO - scan_id 0
+2024-05-12 15:32:40,716 - zapModules.py:244 - INFO - current_date May 12, 2024
+2024-05-12 15:32:40,716 - zapModules.py:245 - INFO - Scan Report Generation in progress, This may take a while please wait
+2024-05-12 15:32:42,444 - zapModules.py:251 - INFO - Scan Report Generation successful
+2024-05-12 15:32:44,244 - zapModules.py:42 - INFO - zap execution completed with return code 0
